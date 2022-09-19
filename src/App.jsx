@@ -3,7 +3,7 @@ import './App.css'
 import QuoteBox from './components/QuoteBox'
 import quotes from './json/quotes.json'
 import color from './utils/color'
-
+import image from './assets/img/pngwing.png'
 function App() {
 
 
@@ -28,7 +28,7 @@ function App() {
     <div style={backgroundObject} className="App">
       
             <div className='image'>
-            <img src= ".\img\pngwing.png" alt="fondo" />
+            <img src= {image} alt="fondo" />
             </div>
       <QuoteBox 
       randomQuote = {randomQuote} 
